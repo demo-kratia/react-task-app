@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  background-color: #e4e5f1;
+}
+input[type=text] {
+  margin: 1em;
+  padding:10px;
+  width:85%;
+  border:0;
+  padding:10px;
+  background-color: #fafafa;
+  text-align: center;
+  border-radius: 15px;
+}
+
+input, textarea {
+  font-family:inherit;
+  font-size: inherit;
+}
+
+button img {
+  max-width: 20px;
+  max-height: 20px;
+  border: none;
+}
+button {
+  float: right;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translateY(-50%);
+}
+
+.container {
+  background: #fafafa;
+  width: 400px;
+  margin: 10em auto;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.heading { 
+  color: #424675;
+  margin-top: 0.5em;
+}
+
+.taskList {
+  font-weight: 300;
+  color: #424675;
+  margin-top: 0.5em;
+}
+
+.taskItem {
+  margin: 15px;
+  position:relative;
+  height:100%;
+}
+
+.completedItem {
+  margin: 15px;
+  position:relative;
+  height:100%;
+}
+
+.completedList {
+  font-weight: 300;
+  color: #424675;
+  margin-top: 0.5em;
+}
+.status-bar {
+  padding-top: 10px;
+  float: right;
+}
+#light {
+  color: #10ac84;
+}
+#medium {
+  color: #ff9f43;
+}
+#heavy {
+  color: #ee5253;
+}
